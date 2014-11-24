@@ -1,13 +1,13 @@
 # A Vagrant VM For Protractor End to End Tests
 
-Vagrant and Chef are here used to launch and provision an Ubuntu 12.04 virtual
-machine for the purpose of running headless browser end to end tests against
-AngularJS web applications using [Protractor][0], a test tool that works with
-the established Selenium and WebDriver ecosystem framework.
+Vagrant and Chef are here used to launch and provision an Ubuntu 12.04 virtual machine for the purpose of running headless browser end to end tests against the established Selenium and WebDriver ecosystem framework.
 
 The following items are installed on the VM:
 
   * Protractor
+  * Node
+    * Mocha package
+    * Selenium-drive package
   * Selenium Standalone Server
   * Xvfb
   * Chromium
@@ -138,3 +138,5 @@ not present in Ubuntu 12.04.
 [2]: https://www.virtualbox.org/wiki/Downloads
 [3]: https://github.com/schisamo/vagrant-omnibus
 [4]: https://github.com/applicationsonline/librarian-chef
+
+
